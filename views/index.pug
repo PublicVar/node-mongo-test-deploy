@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Mon petit blog
+  ul
+    each article in articles
+      li= article.title
